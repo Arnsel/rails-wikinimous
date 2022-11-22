@@ -9,6 +9,8 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
+  <p><%= link_to "Wikinimous", articles_path%></p>
+  <p><%= link_to "New Article", new_article_path%></p>
 
   <body>
     <%= yield %>
